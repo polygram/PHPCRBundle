@@ -28,6 +28,7 @@ AnnotationRegistry::registerFile(__DIR__.'/../vendor/doctrine/phpcr-odm/lib/Doct
 4. Initialize the bundles in AppKernel.php
 ```php
 new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle(),
+new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
 new polygram\PHPCRBundle\polygramPHPCRBundle(),
 ```
 
