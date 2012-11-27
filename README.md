@@ -31,7 +31,6 @@ new polygram\PHPCRBundle\polygramPHPCRBundle(),
 ```
 
 5. Add the following to your config.yml
-
 ```yaml
 doctrine_phpcr:
     # configure the PHPCR session
