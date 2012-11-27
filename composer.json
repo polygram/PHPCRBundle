@@ -1,0 +1,25 @@
+{
+    "name": "polygram/phpcr-bundle",
+    "type": "symfony-bundle",
+    "description": "PHPCR Bundle - still in dev",
+    "keywords": ["phpcr", "bundle"],
+    "homepage": "http://github.com/polygram/PHPCRBundle",
+    "license": "Not specified",
+    "authors": [
+        {
+            "name": "Hristo Salabashev",
+            "email": "hristo@taumedia.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": ">=2.1,<2.2-dev"
+    },
+    "autoload": {
+        "psr-0": { "polygram\\PHPCRBundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "polygram/PHPCRBundle"
+}
