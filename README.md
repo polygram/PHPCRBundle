@@ -50,4 +50,9 @@ doctrine_phpcr:
     wget http://apache.online.bg/jackrabbit/2.4.3/jackrabbit-standalone-2.4.3.jar
     java -jar jackrabbit-standalone-*.jar
 ```
+
+7. Register node types
+```
+    app/console doctrine:phpcr:register-system-node-types
+```
     
