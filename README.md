@@ -5,19 +5,19 @@ This bundle is a test project for PHPCR
     "polygram/phpcr-bundle": "dev-master"
 ```
 
-2. Run 
-    
+2. Run   
+
     "composer update"
 
-It should also install the bundle dependencies
-```json
-"require": {
-    ...
-    "jackalope/jackalope-jackrabbit": "1.0.*",
-    "doctrine/phpcr-bundle": "1.0.*",
-    "doctrine/phpcr-odm": "1.0.*"
-}
-```
+    It should also install the bundle dependencies
+    ```json
+    "require": {
+        ...
+        "jackalope/jackalope-jackrabbit": "1.0.*",
+        "doctrine/phpcr-bundle": "1.0.*",
+        "doctrine/phpcr-odm": "1.0.*"
+    }
+    ```
 
 3. Add the following line, immediately after the last AnnotationRegistry::registerFile line:
 ```php
