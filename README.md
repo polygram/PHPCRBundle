@@ -35,8 +35,8 @@ new polygram\PHPCRBundle\polygramPHPCRBundle(),
 doctrine_phpcr:
     session:
         backend:
-            type: doctrinedbal
-            connection: doctrine.dbal.default_connection
+            type: jackrabbit
+            connection: http://127.0.0.1:8080/server/
         workspace: default
         username: admin
         password: admin
