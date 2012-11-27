@@ -61,4 +61,7 @@ doctrine_phpcr:
 8. Install the fixtures
 ```
     app/console doctrine:phpcr:fixtures:load
+    then run:
+    app/console doctrine:phpcr:dump
+    to see the result
 ```
