@@ -15,7 +15,8 @@
         ...
         "jackalope/jackalope-jackrabbit": "1.0.*",
         "doctrine/phpcr-bundle": "1.0.*",
-        "doctrine/phpcr-odm": "1.0.*"
+        "doctrine/phpcr-odm": "1.0.*",
+        "doctrine/doctrine-fixtures-bundle": "dev-master"        
     }
     ```
 
@@ -55,4 +56,5 @@ doctrine_phpcr:
 ```
     app/console doctrine:phpcr:register-system-node-types
 ```
-    
+
+8. 
