@@ -15,7 +15,8 @@
         "php": ">=5.3.2",
 		"jackalope/jackalope-jackrabbit": "1.0.*",
 		"doctrine/phpcr-bundle": "1.0.*",
-		"doctrine/phpcr-odm": "1.0.*"		
+		"doctrine/phpcr-odm": "1.0.*",
+		"doctrine/doctrine-fixtures-bundle": "dev-master"
     },
     "require-dev": {
         "symfony/framework-bundle": ">=2.1,<2.2-dev"
