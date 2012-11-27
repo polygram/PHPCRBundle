@@ -29,3 +29,21 @@ AnnotationRegistry::registerFile(__DIR__.'/../vendor/doctrine/phpcr-odm/lib/Doct
 new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle(),
 new polygram\PHPCRBundle\polygramPHPCRBundle(),
 ```
+
+5. Add the following to your config.yml
+
+```yaml
+doctrine_phpcr:
+    # configure the PHPCR session
+    session:
+        backend:
+            type: doctrinedbal
+            connection: doctrine.dbal.default_connection
+        workspace: default
+        username: admin
+        password: admin
+    # enable the ODM layer
+    odm:
+        auto_mapping: true
+        auto_generate_proxy_classes: %kernel.debug%
+```
