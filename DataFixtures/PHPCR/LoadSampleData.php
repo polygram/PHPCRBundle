@@ -27,8 +27,13 @@ class LoadSimpleCmsData extends ContainerAware implements FixtureInterface
         NodeHelper::createPath($session, $basepath);
         $base = $dm->find(null, $basepath);
 
-        
-
-        $dm->flush();
+        $user = new User;
+		$user->username = 'ichoman';
+		$user->password = 'password';
+		$dm->persist($user);
+		
+		$dm->flush();
     }
+
+
 }
