@@ -58,4 +58,7 @@ doctrine_phpcr:
     app/console doctrine:phpcr:register-system-node-types
 ```
 
-8. 
+8. Install the fixtures
+```
+    app/console doctrine:phpcr:fixtures:load
+```
