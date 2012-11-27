@@ -12,7 +12,6 @@
     It should also install the bundle dependencies
     ```json
     "require": {
-        ...
         "jackalope/jackalope-jackrabbit": "1.0.*",
         "doctrine/phpcr-bundle": "1.0.*",
         "doctrine/phpcr-odm": "1.0.*",
