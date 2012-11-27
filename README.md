@@ -65,3 +65,9 @@ doctrine_phpcr:
     app/console doctrine:phpcr:dump
     to see the result
 ```
+
+## TODO
+
+1. List the repository content in the default controller
+2. Extends the example to use the other 2 CR backends
+3. Make test on which parts of the PHPCR specification are supported
