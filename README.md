@@ -46,7 +46,8 @@ doctrine_phpcr:
 ```
 
 6. Download and Run Jackrabbit
-
+```
     wget http://apache.online.bg/jackrabbit/2.4.3/jackrabbit-standalone-2.4.3.jar
     java -jar jackrabbit-standalone-*.jar
+```
     
