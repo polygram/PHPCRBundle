@@ -33,7 +33,7 @@ new polygram\PHPCRBundle\polygramPHPCRBundle(),
 5. Add the following to your config.yml
 ```yaml
 doctrine_phpcr:
-session:
+    session:
         backend:
             type: doctrinedbal
             connection: doctrine.dbal.default_connection
