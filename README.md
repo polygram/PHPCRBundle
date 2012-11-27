@@ -1,4 +1,4 @@
-This bundle is a test project for PHPCR
+##This bundle is a test project for PHPCR
 
 1. To install first add the following to composer.json
 ```json
