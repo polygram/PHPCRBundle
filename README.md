@@ -44,3 +44,9 @@ doctrine_phpcr:
         auto_mapping: true
         auto_generate_proxy_classes: %kernel.debug%
 ```
+
+6. Download and Run Jackrabbit
+
+    wget http://apache.online.bg/jackrabbit/2.4.3/jackrabbit-standalone-2.4.3.jar
+    java -jar jackrabbit-standalone-*.jar
+    
