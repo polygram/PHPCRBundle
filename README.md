@@ -34,16 +34,16 @@ new polygram\PHPCRBundle\polygramPHPCRBundle(),
 5. Add the following to your config.yml
 ```yaml
   doctrine_phpcr:
-    session:
-        backend:
-            type: jackrabbit
-            url: http://127.0.0.1:8080/server/
-        workspace: default
-        username: admin
-        password: admin
-    odm:
-        auto_mapping: true
-        auto_generate_proxy_classes: %kernel.debug%
+        session:
+            backend:
+                type: jackrabbit
+                url: http://127.0.0.1:8080/server/
+            workspace: default
+            username: admin
+            password: admin
+        odm:
+            auto_mapping: true
+            auto_generate_proxy_classes: %kernel.debug%
 ```
 
 6. Download and Run Jackrabbit
