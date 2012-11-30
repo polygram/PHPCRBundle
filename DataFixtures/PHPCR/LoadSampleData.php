@@ -35,6 +35,17 @@ class LoadSimpleCmsData extends ContainerAware implements FixtureInterface
 		$dm->persist($user);
 		
 		$dm->flush();
+        
+        
+        $user = new User;
+		$user->username = 'Digger';
+		$user->password = 'mypassword';
+		$user->setPath('/users/'.$user->username);
+		
+		$dm->persist($user);
+		
+		$dm->flush();
+        
     }
 
 
